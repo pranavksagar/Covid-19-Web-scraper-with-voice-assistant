@@ -36,7 +36,7 @@ class Data:
 
 	def get_total_deaths(self):
 		data = self.data['total']
-
+		asd=2
 		for content in data:
 			if content['name'] == "Deaths:":
 				return content['value']
