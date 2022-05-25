@@ -6,7 +6,7 @@ import re
 import threading
 import time
 
-#following keys are from the ParseHub API which provides the data for covid around the world
+#Following keys are from the ParseHub API which provides the data for covid around the world.
 
 API_KEY = "tT-u75CQDhtJ" 
 PROJECT_TOKEN = "t5kbkxowJ4qc"
