@@ -84,7 +84,7 @@ def speak(text):
 	engine.say(text)
 	engine.runAndWait()
 
-
+#12345
 def get_audio():
 	r = sr.Recognizer()
 	with sr.Microphone() as source:
