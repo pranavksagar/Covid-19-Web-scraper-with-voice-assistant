@@ -5,6 +5,7 @@ import speech_recognition as sr
 import re
 import threading
 import time
+#3453666789
 
 #following keys are from the ParseHub API which provides the data for covid around the world
 #comment123
@@ -84,7 +85,7 @@ def speak(text):
 	engine.say(text)
 	engine.runAndWait()
 
-
+#12345
 def get_audio():
 	r = sr.Recognizer()
 	with sr.Microphone() as source:
